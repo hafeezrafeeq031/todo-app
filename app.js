@@ -6,6 +6,7 @@ var ol = document.querySelector('ol');
 var arr = [];
 
 function addTodo() {
+    ol.innerHTML = ""
     arr.push(input.value)
     renderTodo()
 }
